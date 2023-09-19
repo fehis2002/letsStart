@@ -7,6 +7,9 @@ public class StringProcessor {
      * str nog niet eindigt met de suffix
      */
     public String appendIfMissing(String str, String suffix) {
+
+        int i = 0;
+
         if (str.endsWith(suffix)) {
             return str;
         } else {
